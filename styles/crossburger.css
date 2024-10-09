@@ -1,0 +1,26 @@
+.menu__crossburger {
+    position: relative;
+    display: block;
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    rotate: 45deg;
+    transition: rotate 0.3s ease-in-out 0s;
+}
+
+.line-horizontal {
+    width: 100%;
+    height: 9.38%;
+    background-color: #354147;
+    margin: 45.31% 0;
+}
+
+.line-vertical {
+    position: absolute;
+    top: 0;
+    left: 45.31%;
+    height: 100%;
+    width: 9.38%;
+    background-color: #354147;
+    margin: 0 auto;
+}

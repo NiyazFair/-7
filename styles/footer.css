@@ -1,0 +1,262 @@
+footer {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer__desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    padding: 0 11.46% 120px 12.24%;
+}
+
+.footer__mobile {
+    display: none;
+}
+
+.footer__face {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 435px;
+    margin-left: -7px;
+    margin-top: 5px;
+}
+
+.footer__logo {
+    height: 36px;
+    width: 112px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer__slogan {
+    width: 365px;
+    line-height: 180%;
+    flex-grow: 1;
+}
+
+.footer__h3 {
+    font-size: 24px;
+    color: #ffde4a;
+}
+
+.footer__blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -3px;
+    margin-left: 18%;
+}
+
+.footer__text {
+    cursor: pointer;
+}
+
+.footer__company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 184px;
+    margin-right: -7px;
+    margin-top: -3px
+}
+
+.footer__copyright {
+    font-weight: 400;
+    color: #aeaeae;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 1536px) {
+
+    .footer__desktop {
+        height: auto;
+        padding: 0 11.5% 92px 8.984%;
+    }    
+
+    .footer__face {
+        height: 280px;
+        margin-left: 0;
+    }
+
+    .footer__blog {
+        width: 20%;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    .footer__company {
+        width: 180px;
+        margin: 0;
+    }    
+}
+
+@media (max-width: 1024px) {
+
+    .footer__desktop {
+        height: 374px;
+        padding: 0 3.5% 72px 3.3%;
+        font-size: 16px;
+    }
+
+    .footer__face {
+        height: 100%;
+        width: 365px;
+        margin-left: 0;
+    }
+
+    .footer__slogan {
+        width: 100%;
+        line-height: 200%;
+        padding-right: 10%;
+    }
+
+    .footer__blog {
+        width: 210px;
+        height: 288px;
+    }
+
+    .footer__company {
+        width: 180px;
+        height: 174px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer__desktop {
+        display: none;
+    }
+
+    .footer__mobile {
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        width: 100%;
+        padding: 0 3.5% 40px;
+        font-size: 16px;
+    }
+
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .footer__face {
+        width: 37.3%;
+        margin-top: 0;
+    }
+
+    .footer__logo {
+        width: 105px;
+    }
+
+    .footer__slogan {
+        padding: 0;
+        line-height: 190%;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .footer__h3 {
+        font-size: 18px;
+        letter-spacing: .4px;
+    }
+
+    .footer__blog {
+        height: 247px;
+        width: 26%;
+    }
+
+    .footer__company {
+        height: 160px;
+        width: 22%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footer__mobile {
+        height: auto;
+        font-size: 13px;
+        padding: 0 4.17% 57px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .footer__face {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer__logo {
+        margin: 0 0 25px 0;
+    }
+
+    .footer__blog {
+        width: 100%;
+        height: 194px;
+        margin-bottom: 40px;
+    }
+
+    .footer__company {
+        width: 100%;
+        height: 110px;
+        margin-bottom: 40px;
+    }
+
+    .footer__copyright {
+        font-size: 12px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .footer__mobile {
+        padding: 0 3% 57px;
+    }
+
+    .footer__content {
+        font-size: 14px;
+    }
+
+    .footer__face {
+        margin-bottom: 16px;
+    }
+
+    .footer__slogan {
+        padding: 0;
+        line-height: 220%;
+    }
+
+    .footer__h3 {
+        font-size: 19px;
+        letter-spacing: .5px;
+    }
+
+    .footer__blog {
+        height: 254px;
+        margin-bottom: 44px;
+    }
+
+    .footer__company {
+        width: 100%;
+        height: 148px;
+        margin-bottom: 53px;
+    }
+}

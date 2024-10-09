@@ -1,0 +1,436 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 64px 3.8% 0 4.8%;;
+    color: #fff;
+    margin-bottom: 730px;
+}
+
+.header__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 188px;
+    z-index: 1;
+}
+
+.logo {
+    display: block;
+    height: 35px;
+    width: 112px;
+    cursor: pointer;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.header__account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 104px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 265px;
+    padding: 65px 12.71%;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    color: #354147;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    font-weight: 700;
+}
+
+.menu__logo {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 100%;
+    color: #354147;
+    height: 32px;
+    cursor: pointer;
+}
+
+.menu__crossburger {
+    cursor: pointer;
+}
+
+.menu__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.menu__nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 333px;
+    margin-right: 1%;
+}
+
+.menu__nav-mobile > a {
+    color: #354147;
+    text-decoration: none;
+}
+
+.nav-mobile {
+    margin-right: 3.8%;
+    cursor: pointer;
+}
+
+.menu__account-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    cursor: pointer;
+}
+
+.menu__account-mobile > .icon {
+    fill: #354147;
+    margin-right: 1%;
+}
+
+.header__text {
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header__core-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+
+.header__guide {
+    font-size: 12px;
+    color: #ffde4a;
+}
+
+.header__guide-line {
+    display: inline-block;
+    width: 74px;
+    height: 2px;
+    background-color: #ffde4a;
+    margin-bottom: 7px;
+}
+
+.guide {
+    letter-spacing: 6.2px;
+}
+
+.guide.guide-mobile {
+    display: none;
+}
+
+.header__title {
+    width: 850px;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    line-height: 116%;
+    letter-spacing: .9px;
+    margin-top: 3px;
+}
+
+.header__scroll {
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.arrow-down {
+    height: 25px;
+    width: 15px;
+    margin-bottom: -2.5px;
+    margin-left: 5px;
+}
+
+@media (max-width: 1536px) {
+
+    header {
+        padding-left: 5.53%;
+        padding-right: 5.08%;
+        margin-bottom: 715px;
+    }
+
+    .header__header {
+        width: 100%;
+        margin-left: -0.65%;
+        margin-bottom: 205px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .header__text {
+        height: 425px;
+    }
+
+    .header__core-text {
+        margin-right: 80px;
+    }    
+}
+
+@media (max-width: 1024px) {
+
+
+    header {
+        width: 100%;
+        padding: 64px 6.8% 0 6.1%;
+        height: fit-content;
+        color: #fff;
+        margin-bottom: 568px;
+    }
+
+    .header__header {
+        margin-bottom: 204px;
+    }
+
+    .logo {
+        height: 37px;
+        width: 113px;
+    }
+
+    .header__nav {
+        width: 305px;
+        margin-right: 5px;
+    }
+
+    .header__core-text {
+        height: 315px;
+        margin: 0 0 5px 7.42%;
+    }
+
+    .header__title {
+        width: 710px;
+        font-size: 58px;
+        line-height: 172%;
+        letter-spacing: 0.5px;
+    }
+
+    .header__scroll {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 64px 9% 0 8%;
+        margin-bottom: 695px;
+    }
+
+    .header__header {
+        margin-bottom: 155px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__account {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+        width: 32px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .header__text {
+        height: 400px;
+        margin-left: 44px;
+    }
+
+    .header__core-text {
+        height: 304px;
+        margin: 10px 0 0 1.8%;
+    }
+
+    .header__title {
+        width: 100%;
+        font-size: 43px;
+        line-height: 230%;
+        letter-spacing: .1px;
+        margin: 8px 15px 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        align-items: flex-start;
+        padding: 64px 4.17% 0 4.17%;
+        margin-bottom: 75px;
+    }
+
+    .header__header {
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    .logo {
+        height: 44px;
+        width: 145px;
+    }
+
+    .menu {
+        width: 100%;
+        height: 350px;
+        padding: 60px 8.33%;
+    }
+
+    .menu__nav-mobile {
+        flex-direction: column;
+        width: auto;
+        height: 120px;
+        margin: 0;
+    }
+
+    .nav-mobile {
+        margin: 0;
+    }
+
+    .menu__account-mobile {
+        width: 114px;
+        margin: 0;
+    }
+
+    .menu__account-mobile.icon {
+        margin-right: 12px;
+    }
+
+    .guide-desktop {
+        display: none;
+    }
+    .guide.guide-mobile {
+        display:inline;
+        letter-spacing: 6px;
+    }
+
+    .guide-02 {
+        margin-bottom: 28px;
+    }
+
+    .header__guide.guide-03 {
+        margin: 0;
+    }
+
+    .guide {
+        letter-spacing: 0;
+    }
+
+    .header__text {
+        margin: 0;
+    }
+
+    .header__core-text {
+        height: 328px;
+        margin: 0;
+    }
+
+    .header__title {
+        width: 100%;
+        font-size: 43px;
+        line-height: 160%;
+        letter-spacing: .5px;
+        padding-right: 12.5%;
+        margin: 0 0 5px 0;
+    }
+}
+
+@media (max-width: 320px) {
+
+    header {
+        justify-content: space-between;
+        height: 524px;
+        padding: 64px 3% 0 3.4%;
+        margin-bottom: 82px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 138px;
+    }
+
+    .humburger {
+        width: 26px;
+        margin-top: 7px;
+    }
+
+    .menu {
+        height: 350px;
+        padding: 50px 7.8%;
+    }
+
+    .menu__content {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
+    }
+
+    .header__text {
+        height: 298px;
+    }
+
+    .header__core-text {
+        height: 100%;
+    }
+
+    .header__title {
+        font-size: 30px;
+        line-height: 150%;
+        letter-spacing: 0;
+        margin-bottom: 76px;
+    }
+
+    .header__scroll {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+    }
+}
